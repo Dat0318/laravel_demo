@@ -1,0 +1,185 @@
+.radioChecked{
+	margin-left: 10px;
+}
+#inforCustomer tbody tr td:nth-child(1){
+	width: 200px;
+  font-weight: bold;
+}
+.text-red{
+	color: red;
+}
+#ctrPayment{
+	margin-bottom: 150px;
+}
+#txtTotalCart{
+	margin: 5px 0px;
+}
+/*----Custom Giao dien admin old image----*/
+a.disabled {
+  pointer-events:none;
+  cursor:not-allowed;
+  opacity: 0.5;
+}
+.cursor-not-allowed { 
+  cursor: not-allowed; 
+}
+.img-edit img{
+    margin: 10px 0px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 3px 2px 9px cadetblue;
+}   
+.img-edit-slide img{
+    margin: 10px 0px;
+    width: 300px;
+    height: 100px;
+    box-shadow: 3px 2px 9px cadetblue;
+} 
+/* --------Custom Hedear and Menu-------- */
+/*--Đổi màu Header---*/
+.navbar-static-top{
+  background-color: #3C8DBC;
+}
+.navbar{
+  border:none;
+}
+.sidebar-nav a {
+  color:#ffff;
+}
+ /*--Đổi màu cho Menu--*/
+.sidebar-nav,#wrapper {
+  background-color: #222d32;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: #1e282c;
+  color: #3C8DBC;
+}
+.sidebar ul li {
+   border-bottom: 1px solid #313131;
+}
+.sidebar ul li a.active{
+   background-color: #1e282c;
+   color: #3C8DBC;
+}
+.btn-default:hover{
+  background-color:#3C8DBC;
+  border-color:#3C8DBC;
+}
+ /*--Đổi màu cho Dropdown User--*/
+a.dropdown-toggle{
+  color: #ffff;
+}
+.nav>li>a.dropdown-toggle:hover, .nav>li>a.dropdown-toggle:focus {
+  background-color: #367FA9;
+  color: #ffff; 
+  border-radius:50px;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  background-color: #367FA9;
+  border-radius:50px;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+  background-color: #3C8DBC;
+  border-radius:2px;
+  color:#ffff;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  outline: none;
+}
+ul.dropdown-user li:hover{
+  cursor: pointer;
+} 
+/*----------------CSS For User Panel -----------*/
+.title-home-admin{
+  height: 50px;
+  width: 250px;
+  background-color: #357ca5;
+}
+.user-panel{
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  margin:5px 0px;
+}
+.pull-left {
+    float: left!important;
+}
+.user-panel .image img{
+  width: 100%;
+  max-width: 45px;
+  height: auto;
+}
+.user-panel .info p{
+  color: #ffff;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.user-panel .info {
+    padding: 5px 5px 5px 15px;
+    line-height: 1;
+    position: absolute;
+    left: 55px;
+}
+.user-panel .info a {
+    text-decoration: none;
+    padding-right: 5px;
+    margin-top: 3px;
+    font-size: 11px;
+}
+/*-----CSS Cho Multiple Upload Image------*/
+.fileinput-upload{
+  display: none;
+}
+.kv-file-upload.btn-kv{
+  display: none;
+}
+
+/*===Edit Images===*/
+.img-edit{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px 15px;
+
+}
+.img-edit .pro-del{
+  position: absolute;
+  top:3px;
+  right: -7px;
+  cursor: pointer;
+}
+.img-edit .pro-del a i{
+  color: #5149F3;
+  font-size: 18px;
+}
+.img-edit .pro-del a i:hover {
+  color: #F55757;
+  font-size: 18px;
+}
+.form-old-image{
+  position: relative;
+  display: flex;
+}
+#formNewChildImage,#formNewMainImage{
+  margin-left: 15px;
+}
+/*----------CSS Modal Confirm Delete-----*/
+.modal-dialog {
+  width: 400px;
+}
+.modal {
+  top: 5%;
+  position: fixed;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.modal-title{
+  font-size: 24px;
+  font-weight: bold;
+}
+img.imgSlide{
+  width: 100%;
+}
